@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RSSI>
+    <!-- [Net_Patch_5300][CALL_FRW][TMO/MPCS] get RSSI level from signal strength for TMUS/MPCS-->
+    <!-- RSSI Level Start-->
+    <item name="levelNum">5</item>
+    <!-- RSSI Level END-->
+    <!-- LTE Start-->
+    <!-- mLteRsrp -->
+    <item name="mLteRsrp">4,-99,-109,-114,-119</item>
+    <!-- LTE END-->
+    <!-- UMTS Start-->
+    <!-- umtsDbm -->
+    <item name="umtsDbm">4,-88,-96,-102,-112</item>
+    <!-- UMTS END-->
+    <!-- GSM Start-->
+    <!-- gsmDbm -->
+    <item name="gsmDbm">5,-90,-95,-98,-102,-104</item>
+    <!-- GSM END-->
+</RSSI>

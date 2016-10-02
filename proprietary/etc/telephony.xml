@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles>
+    <!-- 450 00 Testbed -->
+    <profile>
+        <siminfo operator="MPCS" country="US" mcc="450" mnc="00" gid="" spn="" imsi="" />
+        <item name="VMS">333</item>
+        <item name="RVMS"></item>
+        <item name="ECC_list">911,112</item>
+        <item name="ShortCodeCall">0,00</item>
+    </profile>
+
+    <!-- Default -->
+    <profile>
+        <siminfo operator="MPCS" country="US" mcc="" mnc="" gid="" spn="" imsi="" default="true" />
+        <item name="VMS">123</item>
+        <item name="RVMS"></item>
+        <item name="ECC_list">911,112</item>
+        <item name="ShortCodeCall">0,00</item>
+        <item name="HOME_NETWORK">310160,310200,310210,310220,310230,310240,310250,310260,310270,310300,310310,310490,310530,310580,310590,310640,310660,310800</item>
+        <item name="roaming_network">310500,310970,310033,310470,310370,310032,310140,311250,310400,311170</item>
+        <item name="not_roaming_country">310,311,312,313,314,315,316</item>
+    </profile>
+
+</profiles>

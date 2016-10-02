@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- This is the LGE IMS feature indicating that the device can support RCS service. -->
+<permissions>
+    <feature name="com.lge.ims.rcs" />
+    <interface>
+        <version>3</version>
+
+        <added>
+            <class name=""/>
+                <method name=""/>
+                    <param name="" type=""/>
+        </added>
+
+    </interface>
+    <feature name="com.lge.ims.service.eab" />
+
+	<rcsversion>
+		<rcsprofile operator ="VDF" version = "blackbird" />
+		<rcsprofile operator ="DTAG" version = "blackbird" />
+	</rcsversion>
+
+	<simoperator>
+            <siminfo mcc="214" mnc="01" operator="VDF" country="ES" prefix="34"/>
+	    <siminfo mcc="262" mnc="02" operator="VDF" country="DE" prefix="49"/>
+	    <siminfo mcc="222" mnc="10" operator="VDF" country="IT" prefix="39"/>
+	    <siminfo mcc="204" mnc="04" operator="VDF" country="NL" prefix="31"/>
+	    <siminfo mcc="216" mnc="70" operator="VDF" country="HU" prefix="36"/>
+	    <siminfo mcc="268" mnc="01" operator="VDF" country="PT" prefix="351"/>
+	    <siminfo mcc="234" mnc="15" operator="VDF" country="UK" prefix="44"/>
+	    <!-- <siminfo mcc="214" mnc="07" operator="TLF" country="ES" prefix="34"/> -->
+	    <!-- <siminfo mcc="208" mnc="01" operator="ORG" country="FR" prefix="33"/> -->
+	    <!-- <siminfo mcc="214" mnc="03" operator="ORG" country="ES" prefix="34"/> -->
+	    <siminfo mcc="262" mnc="01" operator="DTAG" country="DE" prefix="49"/>
+	    <!-- <siminfo mcc="222" mnc="01" operator="TIM" country="IT" prefix="39"/> -->
+	    <!-- <siminfo mcc="525" mnc="01" operator="STL" country="SG" prefix="65"/> -->
+	    <siminfo mcc="310" mnc="410" operator="ATT" country="US" prefix="1"/>
+	    <siminfo mcc="310" mnc="41" operator="ATT" country="US" prefix="1"/>
+	    <siminfo mcc="310" mnc="380" operator="ATT" country="US" prefix="1"/>
+	    <siminfo mcc="311" mnc="180" operator="ATT" country="US" prefix="1"/>
+	    <siminfo mcc="310" mnc="260" operator="TMUS" country="US" prefix="1"/>
+	    <siminfo mcc="310" mnc="310" operator="TMUS" country="US" prefix="1"/>
+	    <siminfo mcc="311" mnc="660" operator="TMUS" country="US" prefix="1"/>
+	    <!-- <siminfo mcc="450" mnc="05" operator="SKT" country="KR" prefix="82"/> -->
+	    <!-- <siminfo mcc="450" mnc="02" operator="KT" country="KR" prefix="82"/> -->
+	    <!-- <siminfo mcc="450" mnc="04" operator="KT" country="KR" prefix="82"/> -->
+	    <!-- <siminfo mcc="450" mnc="08" operator="KT" country="KR" prefix="82"/> -->
+	    <!-- <siminfo mcc="450" mnc="06" operator="LGU" country="KR" prefix="82"/> -->
+	</simoperator>
+
+</permissions>

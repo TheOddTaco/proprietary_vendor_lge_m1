@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!-- use empty string to specify no proxy or port -->
+
+<!-- If you edit this version, also edit the version in the partner-supplied
+    apns-conf.xml configuration file -->
+<apns version="8">
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="160"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="160"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="160"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="160"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="160"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="160"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="200"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="200"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="200"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="200"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="200"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="200"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="210"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="210"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="210"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="210"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="210"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="210"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="220"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="220"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="220"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="220"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="220"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="220"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="230"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="230"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="230"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="230"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="230"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="230"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="240"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="240"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="240"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="240"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="240"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="240"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="250"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="250"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="250"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="250"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="250"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="250"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="260"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="260"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="260"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="EPDG MMS"
+      mcc="310"
+      mnc="260"
+      apn="tmus"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="cbs"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+  />
+
+  <apn carrier="EPDG MMS"
+      mcc="310"
+      mnc="260"
+      apn="tmus"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="cbs"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="260"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="260"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="260"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="270"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="270"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="270"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="270"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="270"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="270"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="300"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="300"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="300"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="300"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="300"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="300"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="310"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="310"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="310"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="310"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="310"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="310"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="490"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="490"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="490"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="490"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="490"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="490"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="530"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="530"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="530"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="530"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="530"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="530"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="580"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="580"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="580"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="580"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="580"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="580"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="590"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="590"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="590"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="590"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="590"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="590"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="640"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="640"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="640"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="640"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="640"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="640"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="660"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="660"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="660"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="660"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="660"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="660"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile LTE"
+      mcc="310"
+      mnc="800"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      protocol="IPV6"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      mcc="310"
+      mnc="800"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="T-Mobile Emergency"
+      mcc="310"
+      mnc="800"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS"
+      mcc="310"
+      mnc="800"
+      apn="fast.metropcs.com"
+      mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+      type="default,supl,mms,hipri"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+  />
+
+  <apn carrier="MetroPCS IMS"
+      mcc="310"
+      mnc="800"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="MetroPCS Emergency"
+      mcc="310"
+      mnc="800"
+      apn="sos"
+      authtype="0"
+      type="emergency"
+	  mvno_match_data="6D"
+      mvno_type="gid"
+      protocol="IPV6"
+      defaultflag="2"
+  />
+
+  <apn carrier="LGE DEFAULT"
+      mcc="450"
+      mnc="00"
+      apn="lte"
+      user="lge"
+      password="lge"
+      authtype="1"
+      mmsc="http://203.229.247.19/mm1"
+      mmsproxy="203.229.247.28"
+      mmsport="8000"
+      type="default,supl,mms,dun"
+      defaultflag="0"
+  />
+
+  <apn carrier="LGE IPv6"
+      mcc="450"
+      mnc="00"
+      apn="lte6"
+      type="default"
+      protocol="IPV6"
+      defaultflag="0"
+  />
+
+  <apn carrier="LGE IPv6 2G/3G Only"
+      mcc="450"
+      mnc="00"
+      apn="iv6"
+      type="default"
+      protocol="IPV6"
+      defaultflag="0"
+  />
+<apn carrier="LGE 2G 3G DEFAULT"
+    mcc="450"
+    mnc="00"
+    apn="qe"
+    user="lge"
+    password="lge"
+    authtype="1"
+    server=""
+    proxy=""
+    port=""
+    mmsc="http://203.229.247.19/mm1"
+    mmsproxy="203.229.247.28"
+    mmsport="8000"
+    type="default,mms,supl"
+    defaultflag="0"
+    preferapp=""
+  />
+</apns>

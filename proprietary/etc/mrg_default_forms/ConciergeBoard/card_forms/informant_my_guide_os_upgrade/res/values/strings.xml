@@ -1,0 +1,8 @@
+<resources>
+
+	<string name="os_upgrade_summary">Preview new features in OS upgrade.</string>
+	<string name="os_upgrade_source">OS upgrade to be released</string>
+	
+    <string name="throttle_help">"Learn more"</string>
+
+</resources>

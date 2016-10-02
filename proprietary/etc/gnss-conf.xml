@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GNSSCONF version="1">
+	<!--agps target_operator="OPEN" target_country="EU" target_regsion="EU" default_country="" mcc="" mnc="" supl_ver="0x20000" supl_host="supl.google.com" supl_port="7275" supl_tls="1" position_mode="1" lpp_config="0" a_glonass_pos_protocol="0" capabilites="0x33" /-->
+	<!--VDF-->
+	<PARAM operator="VDF" country="COM" region="EU" dcountry="" mcc="262" mnc="02" ver="0x20000" host="supl.vodafone.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VDF" country="COM" region="EU" dcountry="" mcc="214" mnc="01" ver="0x20000" host="supl.vodafone.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VDF" country="COM" region="EU" dcountry="" mcc="214" mnc="06" ver="0x20000" host="supl.vodafone.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VDF" country="COM" region="EU" dcountry="" mcc="222" mnc="10" ver="0x20000" host="supl.vodafone.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VDF" country="COM" region="EU" dcountry="" mcc="262" mnc="02" ver="0x20000" host="supl.vodafone.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VDF" country="COM" region="EU" dcountry="" mcc="204" mnc="04" ver="0x20000" host="supl.vodafone.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VDF" country="COM" region="EU" dcountry="" mcc="268" mnc="01" ver="0x20000" host="supl.vodafone.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VDF" country="COM" region="EU" dcountry="" mcc="226" mnc="01" ver="0x20000" host="supl.vodafone.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VDF" country="COM" region="EU" dcountry="" mcc="202" mnc="05" ver="0x20000" host="supl.vodafone.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VDF" country="COM" region="EU" dcountry="" mcc="530" mnc="01" ver="0x20000" host="supl.vodafone.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VDF" country="COM" region="EU" dcountry="" mcc="276" mnc="02" ver="0x20000" host="supl.vodafone.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VDF" country="COM" region="EU" dcountry="" mcc="278" mnc="01" ver="0x20000" host="supl.vodafone.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VDF" country="COM" region="EU" dcountry="" mcc="234" mnc="15" ver="0x20000" host="supl.vodafone.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<!--SFR-->
+	<PARAM operator="SFR" country="FR" region="EU" dcountry="" mcc="208" mnc="10" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="SFR" country="FR" region="EU" dcountry="" mcc="208" mnc="09" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="SFR" country="FR" region="EU" dcountry="" mcc="647" mnc="10" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<!--UNF-->
+	<PARAM operator="UNF" country="MX" region="SCA" dcountry="" mcc="334" mnc="04" ver="0x10000" host="supl.iusacell.com" port="7275" tls="1" pos="0" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="UNF" country="MX" region="SCA" dcountry="" mcc="334" mnc="05" ver="0x10000" host="supl.iusacell.com" port="7275" tls="1" pos="0" lpp="0" aglo="0" capa="0x33"/>
+	
+	
+	<!-- device/common/gps.conf_XXX_XXX -->
+	<PARAM operator="AIO" country="US" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="ATT" country="US" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="" port="7275" tls="5" pos="1" lpp="3" aglo="7" capa="0x33"/>
+	<PARAM operator="ATT_RRLP#ATT" country="US" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="" port="7275" tls="5" pos="1" lpp="0" aglo="0" capa="0x33"/>
+
+	<PARAM operator="BELL" country="CA" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="BYT" country="FR" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+
+	<PARAM operator="CDMA_TRF" country="US" region="" dcountry="" mcc="" mnc="" ver="" host="" port="" tls="" pos="0" lpp="" aglo="" capa="0x31"/>
+	<PARAM operator="CMCC" country="CN" region="" dcountry="" mcc="" mnc="" ver="0x10000" host="221.176.0.55" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="CRK" country="US" region="" dcountry="" mcc="" mnc="" ver="" host="" port="" tls="" pos="0" lpp="" aglo="" capa="0x31"/>
+	<PARAM operator="CTC" country="CN" region="" dcountry="" mcc="" mnc="" ver="" host="" port="" tls="0" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="CUCC" country="CN" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="0" lpp="0" aglo="0" capa="0x33"/>
+
+	<PARAM operator="DCM" country="JP" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="dcm-supl.com" port="7275" tls="1" pos="1" lpp="0" aglo="2" capa="0x37"/>
+
+	<PARAM operator="GLOBAL" country="COM" region="EU" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="GLOBAL" country="AME" region="EU" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="GLOBAL" country="MEA" region="EU" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="GLOBAL" country="SCA" region="EU" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+
+	<PARAM operator="H3G" country="COM" region="EU" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+
+	<PARAM operator="KDDI" country="JP" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="182.248.165.210" port="7275" tls="7" pos="1" lpp="1" aglo="0" capa="0x37"/>
+	<PARAM operator="KT" country="KR" region="" dcountry="" mcc="" mnc="" ver="" host="" port="" tls="" pos="0" lpp="0" aglo="0" capa="0x31"/>
+
+	<PARAM operator="LGU" country="KR" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+
+	<PARAM operator="MON" country="SG" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="MPCS_TMO#TMO" country="US" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="lbs.geo.t-mobile.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="MPCS#TMO" country="US" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="lbs.geo.t-mobile.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+
+	<PARAM operator="OPEN" country="AME" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="OPEN" country="BR" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="OPEN" country="CIS" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="OPEN" country="CN" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="0" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="OPEN" country="COM" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="OPEN" country="EU" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="OPEN" country="HK" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="OPEN" country="SG" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="OPEN" country="TW" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="OPT" country="AU" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="ORG" country="COM" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="ORG" country="EU" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+
+	<PARAM operator="P4P" country="PL" region="EU" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="PLS" country="PL" region="EU" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+
+	<PARAM operator="RGS" country="CA" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+
+	<PARAM operator="SBM#DCM" country="JP" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="dcm-supl.com" port="7275" tls="1" pos="1" lpp="0" aglo="2" capa="0x33"/>
+	<PARAM operator="SCA#OPEN" country="COM" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="SHB" country="SG" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="SKT" country="KR" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="wpde.nate.com" port="7275" tls="0" pos="0" lpp="0" aglo="2" capa="0x31"/>
+	<PARAM operator="SPR" country="US" region="" dcountry="" mcc="" mnc="" ver="" host="" port="" tls="" pos="0" lpp="0" aglo="0" capa="0x31"/>
+	<PARAM operator="STL" country="SG" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+
+	<PARAM operator="TEL" country="AU" region="EU" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="TIM_BR" country="BR" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="TIM" country="IT" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="TLF" country="ES" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="TLF" country="EU" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="TLS" country="CA" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.telusmobility.com" port="7275" tls="3" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="TMN#PLS" country="PT" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="TMO" country="COM" region="EU" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="TMO_EU" country="EU" region="EU" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="TMO" country="US" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="lbs.geo.t-mobile.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="TRF#VZW" country="US" region="" dcountry="" mcc="" mnc="" ver="" host="" port="" tls="" pos="0" lpp="1" aglo="0" capa="0x31"/>
+
+	<PARAM operator="USC" country="US" region="" dcountry="" mcc="" mnc="" ver="" host="" port="" tls="" pos="0" lpp="1" aglo="0" capa="0x31"/>
+
+	<PARAM operator="VDF" country="COM" region="EU" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VDF" country="EU" region="EU" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.vodafone.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VIV" country="BR" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VTR" country="CA" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+	<PARAM operator="VZW" country="US" region="" dcountry="" mcc="" mnc="" ver="" host="" port="" tls="" pos="0" lpp="1" aglo="0" capa="0x31"/>
+	<PARAM operator="VZW_SUPL" country="US" region="" dcountry="" mcc="" mnc="" ver="" host="" port="" tls="1" pos="0" lpp="3" aglo="0" capa="0x31"/>
+
+	<PARAM operator="WCDMA_TRF#ATT" country="US" region="" dcountry="" mcc="" mnc="" ver="0x20000" host="" port="7275" tls="5" pos="0" lpp="3" aglo="0" capa="0x33"/>
+	<PARAM operator="WIN" country="CA" region="EU" dcountry="" mcc="" mnc="" ver="0x20000" host="supl.google.com" port="7275" tls="1" pos="1" lpp="0" aglo="0" capa="0x33"/>
+</GNSSCONF>

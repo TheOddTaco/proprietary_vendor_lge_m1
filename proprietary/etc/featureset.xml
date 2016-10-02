@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles>
+    <FeatureSet>
+        <!-- Sms Start -->
+        <item name="KREncodingScheme">false</item>
+        <item name="KSC5601Decoding">true</item>
+        <item name="handle8bit">false</item>
+        <item name="seperate_processing_sms_uicc">true</item>
+        <item name="increase_user_permit_sent_sms_max_count">true</item>
+        <item name="tmus_no_premium_sms_vvm">true</item>
+        <item name="cmas_mlock_cb">true</item>
+        <item name="support_emoji_in_concat_message">true</item>
+        <item name="do_not_save_sms_to_isis_short_code">true</item>
+        <item name="vvm_intent_action_change">true</item>
+        <item name="tmus_whitepages_nameid">true</item>
+        <item name="support_blocking_sms_in_frp">true</item>
+
+        <!-- Global Spam Message Start -->
+        <item name="OperatorMessage">true</item>
+        <item name="spam">true</item>
+        <item name="KRWapPushWithSpam">true</item>
+        <item name="GLOBALspam">true</item>
+        <!-- Global Spam Message End -->
+        <!-- Sms End -->
+
+        <!-- Call Start -->
+        <item name="block_private_log_level">0x111</item>
+        <item name="support_srvcc">true</item>
+        <item name="support_volte_if">true</item>
+        <item name="telecom_enabled">true</item>
+        <item name="speech_codec_ind">true</item>
+        <item name="lge_call_tmus">true</item>
+        <item name="star67_dial">true</item>
+        <item name="srvcc_call_context_transfer">true</item>
+        <item name="mmi_over_sip">true</item>
+        <!-- Call End -->
+
+        <!-- Telephony Start-->
+        <item name="MANUAL_SELECTION_WITH_RAT">true</item>
+        <item name="SUPPORT_INFO_FOR_IMS">true</item>
+        <item name="SUPPORT_LOG_RF_INFO">true</item>
+        <!-- Telephony END-->
+
+    </FeatureSet>
+</profiles>

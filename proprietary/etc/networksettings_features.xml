@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Features>
+
+    <!-- Default value, when model name was not found.-->
+    <Model name="default">
+        <modelfeatureloaded>true</modelfeatureloaded>
+    </Model>
+    <Model name="SPR/US,LGL25L,BM" extends="default">
+        <mobilenetworksettingforspcs>SPR</mobilenetworksettingforspcs>
+    </Model>
+    <Model name="USC/US,USC/MX,ACG/US,LRA/US" extends="default">
+        <mobilenetworksettingforcdma>CDMA</mobilenetworksettingforcdma>
+    </Model>
+    <Model name="LGL86C,LGL39C,LGL30L,LGL34C,LGL41C" extends="default">
+        <mobilenetworksettingforcdma>CDMA</mobilenetworksettingforcdma>
+    </Model>
+    <Model name="ATT/US,AIO/US" extends="default">
+        <mobilenetworksettingforatt>ATT</mobilenetworksettingforatt>
+    </Model>
+</Features>

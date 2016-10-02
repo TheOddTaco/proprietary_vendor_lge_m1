@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CodecList>
+	<Decoders>
+		<MediaCodec name="OMX.lge.flac.decoder" type="audio/x-lg-flac"/>
+		<MediaCodec name="OMX.lge.adpcm.decoder" type="audio/adpcm"/>
+		<MediaCodec name="OMX.lge.g726.decoder" type="audio/g726"/>
+	</Decoders>
+</CodecList>
