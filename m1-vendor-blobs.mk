@@ -196,7 +196,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/m1/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/m1/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/lge/m1/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    vendor/lge/m1/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/lge/m1/proprietary/vendor/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/m1/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/lge/m1/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/lge/m1/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -223,7 +223,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/m1/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
     vendor/lge/m1/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/lge/m1/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/lge/m1/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+    vendor/lge/m1/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/lge/m1/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/lge/m1/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
     vendor/lge/m1/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
@@ -232,7 +232,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/m1/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/lge/m1/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/m1/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/lge/m1/proprietary/lib/libbccQTI.so:system/lib/libbccQTI.so \
+    vendor/lge/m1/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lge/m1/proprietary/vendor/lib/libOmxIttiamVdec.so:system/vendor/lib/libOmxIttiamVdec.so \
     vendor/lge/m1/proprietary/vendor/lib/libscve_mv.so:system/vendor/lib/libscve_mv.so \
     vendor/lge/m1/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
@@ -243,7 +243,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/m1/proprietary/vendor/lib/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so:system/vendor/lib/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so \
     vendor/lge/m1/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/lge/m1/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/lge/m1/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
+    vendor/lge/m1/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/lge/m1/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
     vendor/lge/m1/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/lge/m1/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
@@ -346,7 +346,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/m1/proprietary/lib/libQWiFiSoftApCfg.so:system/lib/libQWiFiSoftApCfg.so \
     vendor/lge/m1/proprietary/lib/libvss_gnss_qcci.so:system/lib/libvss_gnss_qcci.so \
     vendor/lge/m1/proprietary/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
-    vendor/lge/m1/proprietary/lib/libmpt_ex.so:system/lib/libmpt_ex.so \
     vendor/lge/m1/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
     vendor/lge/m1/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
     vendor/lge/m1/proprietary/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
@@ -489,4 +488,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/m1/proprietary/lib/liblginvertcolor_jni.so:system/lib/liblginvertcolor_jni.so \
     vendor/lge/m1/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/m1/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/lge/m1/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so
+vendor/lge/m1/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so
