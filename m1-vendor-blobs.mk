@@ -23,11 +23,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/m1/proprietary/etc/acdbdata/MTP/Headset_cal.acdb:system/etc/acdbdata/MTP/Headset_cal.acdb \
     vendor/lge/m1/proprietary/etc/acdbdata/MTP/Speaker_cal.acdb:system/etc/acdbdata/MTP/Speaker_cal.acdb \
     vendor/lge/m1/proprietary/etc/acdbdata/MTP/workspaceFile.qwsp:system/etc/acdbdata/MTP/workspaceFile.qwsp \
-    vendor/lge/m1/proprietary/firmware/image/keymaster.b00:system/firmware/image/keymaster.b00 \
-    vendor/lge/m1/proprietary/firmware/image/keymaster.b01:system/firmware/image/keymaster.b01 \
-    vendor/lge/m1/proprietary/firmware/image/keymaster.b02:system/firmware/image/keymaster.b02 \
-    vendor/lge/m1/proprietary/firmware/image/keymaster.b03:system/firmware/image/keymaster.b03 \
-    vendor/lge/m1/proprietary/firmware/image/keymaster.mdt:system/firmware/image/keymaster.mdt \
+    vendor/lge/m1/proprietary/firmware/image/keymaste.b00:system/firmware/image/keymaste.b00 \
+    vendor/lge/m1/proprietary/firmware/image/keymaste.b01:system/firmware/image/keymaste.b01 \
+    vendor/lge/m1/proprietary/firmware/image/keymaste.b02:system/firmware/image/keymaste.b02 \
+    vendor/lge/m1/proprietary/firmware/image/keymaste.b03:system/firmware/image/keymaste.b03 \
+    vendor/lge/m1/proprietary/firmware/image/keymaste.mdt:system/firmware/image/keymaste.mdt \
     vendor/lge/m1/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/m1/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/m1/proprietary/bin/radish:system/bin/radish \
@@ -57,11 +57,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/m1/proprietary/etc/acdbdata/MTP/Headset_cal.acdb:system/etc/acdbdata/MTP/Headset_cal.acdb \
     vendor/lge/m1/proprietary/etc/acdbdata/MTP/Speaker_cal.acdb:system/etc/acdbdata/MTP/Speaker_cal.acdb \
     vendor/lge/m1/proprietary/etc/acdbdata/MTP/workspaceFile.qwsp:system/etc/acdbdata/MTP/workspaceFile.qwsp \
-    vendor/lge/m1/proprietary/firmware/image/keymaster.b00:system/firmware/image/keymaster.b00 \
-    vendor/lge/m1/proprietary/firmware/image/keymaster.b01:system/firmware/image/keymaster.b01 \
-    vendor/lge/m1/proprietary/firmware/image/keymaster.b02:system/firmware/image/keymaster.b02 \
-    vendor/lge/m1/proprietary/firmware/image/keymaster.b03:system/firmware/image/keymaster.b03 \
-    vendor/lge/m1/proprietary/firmware/image/keymaster.mdt:system/firmware/image/keymaster.mdt \
+    vendor/lge/m1/proprietary/firmware/image/keymaste.b00:system/firmware/image/keymaste.b00 \
+    vendor/lge/m1/proprietary/firmware/image/keymaste.b01:system/firmware/image/keymaste.b01 \
+    vendor/lge/m1/proprietary/firmware/image/keymaste.b02:system/firmware/image/keymaste.b02 \
+    vendor/lge/m1/proprietary/firmware/image/keymaste.b03:system/firmware/image/keymaste.b03 \
+    vendor/lge/m1/proprietary/firmware/image/keymaste.mdt:system/firmware/image/keymaste.mdt \
     vendor/lge/m1/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/m1/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/m1/proprietary/bin/radish:system/bin/radish \
@@ -132,6 +132,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/m1/proprietary/lib/liblgDivxDrm.so:system/lib/liblgDivxDrm.so \
     vendor/lge/m1/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/lge/m1/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+    vendor/lge/m1/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so.toc \
     vendor/lge/m1/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/lge/m1/proprietary/vendor/lib/libMpeg4SwEncoder.so:system/vendor/lib/libMpeg4SwEncoder.so \
     vendor/lge/m1/proprietary/vendor/lib/libqmiservices_ext.so:system/vendor/lib/libqmiservices_ext.so \
